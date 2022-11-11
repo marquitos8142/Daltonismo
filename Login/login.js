@@ -47,7 +47,7 @@ function check(){
     //aca es donde se comprueba si los datos nuevos ingresados son iguales a los guardados en el storage y si estan correctos redirigir a la pagina inicial
     if(userName.value == storedName && userPw.value == storedPw){
         alert('You are logged in.');
-        window.open("../Casa.html");
+        window.open("./Casa/Casa.html");
          window.close()    
         }else{
         alert('Error on login');
